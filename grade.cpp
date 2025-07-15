@@ -7,7 +7,7 @@ If marks are 70 or higher, it prints "Grade: A."
 If marks are outside the valid range, it prints "Invalid marks entered."
 */
 
-#include<bits./stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main () {
