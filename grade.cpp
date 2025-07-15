@@ -18,23 +18,24 @@ int main () {
         cout << "Your mark is " << mark << " and your grafe is : F" << endl;
     }
 
-    if (mark >=25 && mark <= 44) {
+    else if ( mark <= 44) {
         cout << "Your mark is " << mark << " and your grafe is : E" << endl;
     }
 
-    if (mark >=45 && mark <= 49) {
+    else if ( mark <= 49) {
         cout << "Your mark is " << mark << " and your grafe is : D" << endl;
     }
 
-    if (mark >=50 && mark <= 59) {
+    else if ( mark <= 59) {
         cout << "Your mark is " << mark << " and your grafe is : C" << endl;
     }
 
-    if (mark >=60 && mark <= 69) {
+    else if ( mark <= 69) {
         cout << "Your mark is " << mark << " and your grafe is : B" << endl;
     }
 
-    if (mark >= 70) {
+    else if (mark >= 70) {
         cout << "Your mark is " << mark << " and your grafe is : A" << endl;
     }
+    return 0;
 }
